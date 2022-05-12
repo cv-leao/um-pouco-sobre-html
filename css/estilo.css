@@ -1,0 +1,55 @@
+html {
+    /*efeito para deixar suave a navegação do scrool*/
+    scroll-behavior: smooth;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+
+.nav-wrapper {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    background-color: blue;
+}
+
+.container-apresentacao {
+    margin-top: 30%;
+    padding: 0 0 5%;
+}
+
+.containers-restantes {
+    padding: 5% 0;
+}
+
+.container-sections {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.espaco-acima-dos-li {
+    padding: 2% 0 0 0;
+}
+
+.imgEstrutura {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.container-footer {
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    font-size: 1em;
+    color: #eee;
+    padding: 5px;
+}
